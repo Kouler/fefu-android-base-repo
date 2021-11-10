@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Activity Tracker</string>
+    <string name="welcomeBtn_openRegActivity">Registration</string>
+    <string name="text_welcomeActivity_big">Perhaps the best FEFU fitness tracker</string>
+    <string name="text_welcomeActivity_small">Созданный студентами 2-ого курса</string>
+    <string name="welcomeBtn_openLogInActivity">Already have an account?</string>
 </resources>

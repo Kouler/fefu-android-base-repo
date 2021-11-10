@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Активити трекер</string>
+    <string name="welcomeBtn_openRegActivity">Зарегистрироваться</string>
+    <string name="text_welcomeActivity_big">Пожалуй, лучший фитнес трекер в ДВФУ</string>
+    <string name="text_welcomeActivity_small">Созданный студентами 2-ого курса</string>
+    <string name="welcomeBtn_openLogInActivity">Уже есть аккаунт?</string>
+</resources>
