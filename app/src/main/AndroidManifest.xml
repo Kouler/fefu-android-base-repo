@@ -9,7 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Activity">
-        
+
+        <activity android:name=".LoginActivity"
+            android:label="Login Activity"
+            android:exported="true"/>
+
+        <activity android:name=".RegistrationActivity"
+            android:label="Registration Activity"
+            android:exported="true"
+            />
+
         <activity android:name=".WelcomeActivity"
             android:label="FEFU Tracker"
             android:icon="@drawable/android"
@@ -21,5 +30,8 @@
             </intent-filter>
 
         </activity>
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 </manifest>

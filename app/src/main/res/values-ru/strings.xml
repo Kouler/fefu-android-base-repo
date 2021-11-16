@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Активити трекер</string>
-    <string name="welcomeBtn_openRegActivity">Зарегистрироваться</string>
-    <string name="text_welcomeActivity_big">Пожалуй, лучший фитнес трекер в ДВФУ</string>
-    <string name="text_welcomeActivity_small">Созданный студентами 2-ого курса</string>
-    <string name="welcomeBtn_openLogInActivity">Уже есть аккаунт?</string>
+    <string name="app_name">FEIP Трекер</string>
+    <string name="welcomeActivity_Btn_openRegActivity">Зарегистрироваться</string>
+    <string name="welcomeActivity_text_big">Пожалуй, лучший фитнес трекер в ДВФУ</string>
+    <string name="welcomeActivity_text_small">Созданный студентами 2-ого курса</string>
+    <string name="welcomeActivity_Btn_openLoginActivity">Уже есть аккаунт?</string>
+    <string name="regActivity_text_big">Регистрация</string>
+    <string name="regActivity_hint_login">Логин</string>
+    <string name="regActivity_hint_password">Пароль</string>
+    <string name="regActivity_hint_repeatPassword">Повторите пароль</string>
+    <string name="regActivity_hint_nickname">Имя или никнейм</string>
+    <string name="loginActivity_Btn_login">Войти</string>
+    <string name="loginActivity_text_big">Вход</string>
+    <string name="regActivity_text_acceptReg">Нажимая на кнопку, вы соглашаетесь<br>с <a href="">политикой конфиденциальности и обработки персональных <br> данных</br></a>, а также принимаете <a href="">пользовательское соглашение</a></br></string>
+    <string name="regActivity_text_sex">Пол</string>
+    <string name="regActivity_radioButton_male">Мужской</string>
+    <string name="regActivity_radioButton_female">Женский</string>
+    <string name="regActivity_radioButton_humandroid">Гумандроид</string>
 </resources>
