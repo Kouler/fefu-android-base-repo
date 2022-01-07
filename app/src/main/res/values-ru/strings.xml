@@ -12,7 +12,7 @@
     <string name="regActivity_hint_nickname">Имя или никнейм</string>
     <string name="loginActivity_Btn_login">Войти</string>
     <string name="loginActivity_text_big">Вход</string>
-    <string name="regActivity_text_acceptReg">Нажимая на кнопку, вы соглашаетесь<br>с <a href="">политикой конфиденциальности и обработки персональных <br> данных</br></a>, а также принимаете <a href="">пользовательское соглашение</a></br></string>
+    <string name="regActivity_text_acceptReg">Нажимая на кнопку, вы соглашаетесь <br>с <a href="">политикой конфиденциальности и обработки персональных <br> данных</br></a>, а также принимаете <a href="">пользовательское соглашение</a></br></string>
     <string name="regActivity_text_sex">Пол</string>
     <string name="regActivity_radioButton_male">Мужской</string>
     <string name="regActivity_radioButton_female">Женский</string>

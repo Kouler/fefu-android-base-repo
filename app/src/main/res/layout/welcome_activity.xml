@@ -17,8 +17,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@id/text_welcomeActivity_big"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:contentDescription="TODO" /> <!-- ЗАЧЕМ нужна       -->
+        app:layout_constraintEnd_toEndOf="parent"/>
 
     <TextView
         android:id="@+id/text_welcomeActivity_big"
