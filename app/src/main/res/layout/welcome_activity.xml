@@ -19,22 +19,25 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"/>
 
+
     <TextView
         android:id="@+id/text_welcomeActivity_big"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
         android:fontFamily="sans-serif-medium"
         android:gravity="center"
         android:text="@string/welcomeActivity_text_big"
         android:textColor="@color/black"
         android:textSize="24sp"
-        android:layout_marginStart="25dp"
-        android:layout_marginEnd="25dp"
-        app:layout_constraintBottom_toTopOf="@id/text_welcomeActivity_small"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintVertical_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/welcome_imageView" />
+
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <TextView
         android:id="@+id/text_welcomeActivity_small"
@@ -48,6 +51,7 @@
         android:textSize="16sp"
         android:gravity="center"
         android:textColor="#777"
+
         android:layout_marginBottom="30dp"
     />
 
@@ -64,6 +68,7 @@
         android:backgroundTint="@color/purple_500"
         android:textColor="@color/white"
         android:textSize="16sp"
+        android:fontFamily="casual"
         app:layout_constraintStart_toStartOf="parent"
         tools:ignore="MissingConstraints" />
 
@@ -79,6 +84,7 @@
         android:textColor="@color/purple_500"
         android:textAllCaps="false"
         android:textSize="16sp"
+        android:fontFamily="casual"
         style="@style/Widget.MaterialComponents.Button.TextButton"
         app:layout_constraintTop_toBottomOf="@id/Button_OpenRegActivity" />
 

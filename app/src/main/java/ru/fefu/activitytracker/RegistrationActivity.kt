@@ -4,14 +4,15 @@ import android.os.Bundle
 import android.widget.ArrayAdapter
 import android.widget.Spinner
 import androidx.appcompat.app.AppCompatActivity
+import androidx.appcompat.widget.Toolbar
 import com.google.android.material.button.MaterialButton
 
 class RegistrationActivity : AppCompatActivity(R.layout.registration_activity) {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val backButton = findViewById<MaterialButton>(R.id.regActivity_button_Back)
-        backButton.setOnClickListener {
+        val toolbar = findViewById<Toolbar>(R.id.regActivity_panel_upper)
+        toolbar.setNavigationOnClickListener() {
             finish()
         }
 
