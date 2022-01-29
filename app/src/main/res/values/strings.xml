@@ -1,3 +1,19 @@
 <resources>
-    <string name="app_name">Activity Tracker</string>
+    <string name="app_name">FEIP Tracker</string>
+    <string name="welcomeActivity_Btn_openRegActivity">Registration</string>
+    <string name="welcomeActivity_text_big">Perhaps the best FEFU fitness tracker</string>
+    <string name="welcomeActivity_text_small">Created by 2 course students (my holy english:(</string>
+    <string name="welcomeActivity_Btn_openLoginActivity">Already have an account?</string>
+    <string name="regActivity_text_big">Registration</string>
+    <string name="regActivity_hint_login">Login</string>
+    <string name="regActivity_hint_password">Password</string>
+    <string name="regActivity_hint_repeatPassword">Repeat password</string>
+    <string name="regActivity_hint_nickname">Name or nickname</string>
+    <string name="loginActivity_Btn_login">Login</string>
+    <string name="loginActivity_text_big">Login</string>
+    <string name="regActivity_text_acceptReg">By clicking on the button, you agree with the privacy policy and the processing of personal data, you also accept the user agreement</string>
+    <string name="regActivity_text_sex">Sex</string>
+    <string name="regActivity_radioButton_male">Male</string>
+    <string name="regActivity_radioButton_female">Female</string>
+    <string name="regActivity_radioButton_humandroid">Humandroid</string>
 </resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:theme="@style/CardView.Light">
+
+    <ImageView
+        android:id="@+id/welcome_imageView"
+        android:layout_width="350dp"
+        app:layout_constraintWidth_percent="70"
+        android:layout_height="350dp"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/cyclists"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/text_welcomeActivity_big"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+    <TextView
+        android:id="@+id/text_welcomeActivity_big"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="@string/welcomeActivity_text_big"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintVertical_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/text_welcomeActivity_small"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcomeActivity_text_small"
+        app:layout_constraintBottom_toTopOf="@id/Button_OpenRegActivity"
+        app:layout_constraintTop_toBottomOf="@id/text_welcomeActivity_big"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="#777"
+
+        android:layout_marginBottom="30dp"
+    />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/Button_OpenRegActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cornerRadius="7dp"
+        android:text="@string/welcomeActivity_Btn_openRegActivity"
+        app:layout_constraintTop_toBottomOf="@id/text_welcomeActivity_small"
+        app:layout_constraintBottom_toTopOf="@id/Button_OpenLogInActivity"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/purple_500"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:fontFamily="casual"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/Button_OpenLogInActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcomeActivity_Btn_openLoginActivity"
+        android:layout_marginBottom="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/purple_500"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:fontFamily="casual"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        app:layout_constraintTop_toBottomOf="@id/Button_OpenRegActivity" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
